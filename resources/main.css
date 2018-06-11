@@ -127,10 +127,21 @@ body {
       border-color: transparent;
       color: #fff !important;
   }
-  footer .glyphicon {
+  #footer{
+	  padding: 0px 0px !important;
+	  background-color: #996666;
+	  height: 20px;
+  }
+  #footer .glyphicon {
       font-size: 20px;
       margin-bottom: 20px;
       color: #f4511e;
+  }
+  #footer .glyphicon:hover{
+	  background-color:#F6F6F6;
+  }
+  #footer i:hover{
+	  background-color:#CCDDEE;
   }
   .slideanim {visibility:hidden;}
   .slide {
