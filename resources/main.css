@@ -3,43 +3,77 @@
 }
 body{
 	 width: 100%;
-    /* background-image: url("../images/b2.jpg");
-    background-size: cover; */
+	 margin: 0px 0px 0px 0px; /* top right bouttom left */
+	 padding: 0px 0px 0px 0px; /* top right bouttom left */
 	font-family: 'Terminal Dosis', Arial, sans-serif;
 	font-family: 'Terminal Dosis', Arial, sans-serif;
 }
+
+/***** Navbar *****/
 .navbar-modify{
 	height: 80px;
 }
 .header_imag{
 	width: 80px;
 	height: 60px;
-	margin: -5px 0px 0px 0px; /* top right bouttom left */
-	padding: 0px 0px 0px 0px; /* top right bouttom left */
+	margin: -5px 0px 0px 0px; 
+	padding: 0px 0px 0px 0px; 
 }
 .name{
 	margin: 10px 0px 0px 0px;
 }
 .degination{
-	margin: 0px 0px 0px 0px; /* top right bouttom left */
-	padding: 45px 0px 0px 0px; /* top right bouttom left */
-	/* background-color: #222222; */
-	/* float:none; */
+	margin: 0px 0px 0px 0px; 
+	padding: 45px 0px 0px 0px; 
+	font: normal normal normal 14px/1 FontAwesome;
 	position: absolute;
 	left:122px;
 }
 .menu{
-	margin: 0px 0px 0px 0px; /* top right bouttom left */
-	padding: 15px 0px 0px 0px; /* top right bouttom left */
+	margin: 0px 0px 0px 0px; 
+	padding: 15px 0px 0px 0px; 
 }
 .icon{
-	margin: 0px 0px 0px 0px; /* top right bouttom left */
-	padding: 15px 0px 0px 0px; /* top right bouttom left */
-	/* color:red;
-	background-color:red; */
+	margin: 0px 0px 0px 0px; 
+	padding: 15px 0px 0px 0px;
 }
 
+/***** Home *****/
 #home{
-	padding: 51px 0px 0px 0px; /* top right bouttom left */
-	margin: 0px 0px 0px 0px; /* top right bouttom left */
+	padding: 0px 0px 0px 0px; 
+	margin: 0px 0px 0px 0px; 
+	/***** Background Image *****/
+	background-image: url("images/home_background.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	/***** Background Image *****/
+	height: 750px;
+	width: 100%;
+}
+.img_medisys{
+	padding: 0px 0px 0px 0px;
+    margin: 238px 0px 0px -14px;
+    height: 370px;
+    width: 540px;
+}
+.img_ocjp{
+	padding: 0px 0px 0px 0px;
+    margin: 42px -15px 0px 0px;
+    height: 100px;
+    width: 170px;
+    float: right;
+}
+
+/***** Contact *****/
+.contact_well{
+	background-color: #222222;
+	height: 75px;
+}
+.contact_well p{
+	float: left;
+	padding: 30px 0px 0px 0px; 
+	margin: 0px 35px 0px 27px; 
+	color: #ffffff;
+	font: normal normal normal 14px/1 FontAwesome;
 }
