@@ -2,9 +2,9 @@
 	box-sizing: border-box;
 }
 body{
-	 width: 100%;
-	 margin: 0px 0px 0px 0px; /* top right bouttom left */
-	 padding: 0px 0px 0px 0px; /* top right bouttom left */
+	width: 100%;
+	margin: 0px 0px 0px 0px; /* top right bouttom left */
+	padding: 0px 0px 0px 0px; /* top right bouttom left */
 	font-family: 'Terminal Dosis', Arial, sans-serif;
 	font-family: 'Terminal Dosis', Arial, sans-serif;
 }
@@ -64,7 +64,7 @@ body{
 /***** Home *****/
 #home{
 	padding: 0px 0px 0px 0px; 
-	margin: 0px 0px 0px 0px; 
+	margin: 0px 0px 0px 0px;
 	/***** Background Image *****/
 	background-image: url("images/home_background.jpg");
 	background-repeat: no-repeat;
@@ -94,17 +94,17 @@ body{
 	padding: 0px 0px 0px 0px;
 	margin: 0px 0px 0px 0px;
 	/***** Background Image *****/
-	background-image: url("images/profetional_07.jpg");
+	background-image: url("images/about_background.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	/***** Background Image *****/
 }
 
-/***** About Discription*****/
+/***** About Discription *****/
 .about_dis{
 	width: 100%;
 	padding: 0px 0px 0px 0px;
-	background-color: #D9DEE2;
+	background-color: #776040;
 }
 .about_dis_img{
 	height: 200px;
@@ -124,12 +124,13 @@ body{
     padding: 15px 15px 0px 15px;
 	
 }
-/***** Experience*****/
+
+/***** Experience *****/
 .experience{
 	width: 100%;
 	padding: 0px 0px 0px 0px;
 	margin: 0px 0px 0px 0px;
-	background-color: #D9DEE2;
+	background-color: #776040;
 }
 .experience_dis{
 	width: 100%;
@@ -141,8 +142,7 @@ body{
 	font-size: 11px;
 }
 
-
-/***** Certification*****/
+/***** Certification *****/
 .certification{
 	width: 100%;
 	padding: 0px 0px 0px 0px;
@@ -151,15 +151,14 @@ body{
 .certification_dis{
 	width: 100%;
 	padding: 25px 50px 25px 50px;
-	color: #222222;
+	color: cornsilk;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	font-style: normal;
 	text-align: left;
 
 }
 
-
-/***** Academic*****/
+/***** Academic *****/
 .academic{
 	width: 100%;
 	padding: 0px 0px 0px 0px;
@@ -169,9 +168,80 @@ body{
 .academic_dis{
 	width: 100%;
 	padding: 25px 50px 25px 50px;
-	color: #222222;
+	color: cornsilk;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	font-style: normal;
+}
+
+/***** Protfolio *****/
+.protfolio{
+	width: 100%;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+	background-color: #776040;
+}
+.protfolio_dis{
+	width: 100%;
+	padding: 25px 50px 25px 50px;
+	margin: 0px 0px 0px 0px;
+
+}
+.protfolio_dis .well{
+	background-color: #878986;
+}
+.protfolio_dis .well:hover{
+	border: 2px solid white;
+}
+.protfolio_dis_application{
+	font-size: 20px;
+    float: left;
+    padding: 10px 0px 0px 0px;
+}
+.protfolio_dis_profile{
+	font-size: 11px;
+    padding: 5px 0px 0px 0px;
+}
+.protfolio_dis_app_dis{
+	font-size: 14px;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+.protfolio_icons{
+	padding: 10px 0px 0px 0px;
+}
+.protfolio_icons li{
+	text-align: left;
+    padding: 0px 0px 0px 30px;
+}
+
+/***** Service *****/
+.service{
+	width: 100%;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+	background-color: #776040;
+}
+.service_row{
+	width: 100%;
+	padding: 0px 0px 0px 0px;
+	margin: 50px 0px 50px 0px;
+}
+.service_row h4{
+	font-size: 25px;
+}
+.service_col{
+	background-color: #222222;
+    border-radius: 135px;
+    border: 2px solid #73AD21;
+    padding: 77px 0px 0px 0px;
+    width: 279px;
+    height: 266px;
+    float: left;
+	margin: 0px 0px 0px 95px;
+	color: white;
+}
+.service_col:hover{
+	border: 15px double #776040;
 }
 
 /***** Contact *****/
