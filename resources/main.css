@@ -9,6 +9,17 @@ body{
 	font-family: 'Terminal Dosis', Arial, sans-serif;
 }
 
+/***** Modified Bootatrap Class *****/
+.panel-heading{
+	background-color: #222222;
+	color: #DADADA;
+	
+}
+.panel{
+	border: 1px solid #222222;
+	background-color: transparent;
+}
+
 /***** Navbar *****/
 .navbar-modify{
 	height: 80px;
@@ -65,6 +76,80 @@ body{
     float: right;
 }
 
+/***** About *****/
+.about{
+	width: 100%;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+	
+}
+/***** About Discription*****/
+.about_dis{
+	width: 100%;
+	padding: 25px 50px 25px 50px;
+}
+.about_dis P{
+	color: #222222;
+	font-size: 13px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-style: normal;
+	text-align: justify;
+	
+}
+/***** Experience*****/
+.experience{
+	width: 100%;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+}
+.experience_dis{
+	width: 100%;
+	padding: 25px 50px 25px 50px;
+	color: #222222;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-style: normal;
+	text-align: left;
+	font-size: 11px;
+}
+
+
+/***** Certification*****/
+.certification{
+	width: 100%;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+}
+.certification_dis{
+	width: 100%;
+	padding: 25px 50px 25px 50px;
+	color: #222222;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-style: normal;
+	text-align: left;
+
+}
+
+
+/***** Academic*****/
+.academic{
+	width: 100%;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+	/***** Background Image *****/
+	background-image: url("images/profetional_04.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	/***** Background Image *****/
+}
+.academic_dis{
+	width: 100%;
+	padding: 25px 50px 25px 50px;
+	color: #222222;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-style: normal;
+}
+
 /***** Contact *****/
 .contact_well{
 	background-color: #222222;
@@ -74,6 +159,6 @@ body{
 	float: left;
 	padding: 30px 0px 0px 0px; 
 	margin: 0px 35px 0px 27px; 
-	color: #ffffff;
+	color: #DADADA;
 	font: normal normal normal 14px/1 FontAwesome;
 }

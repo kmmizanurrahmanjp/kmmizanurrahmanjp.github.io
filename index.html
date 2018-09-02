@@ -13,7 +13,7 @@
 		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 		<link href="resources/main.css" rel="stylesheet" type="text/css">
 	</head>
-	<body id="mizan" data-spy="scroll" data-target=".navbar" data-offset="60">
+	<body  onload="onPageLoding()" id="mizan" data-spy="scroll" data-target=".navbar" data-offset="60">
 		<!-- Navbar  -->
 		<div class="container-fluid">
 			<nav class="navbar navbar-inverse navbar-fixed-top navbar-modify">
@@ -57,6 +57,7 @@
 		</div>
 		<!-- Navbar End-->
 
+		<!-- Home-->
 		<div id="home" class="container-fluid home">
 		  <div class="container-fluid">
 				<div class="img_medisys">
@@ -65,22 +66,184 @@
 				<div class="img_ocjp">
 						<img src="resources/images/ocjp.gif" height="100%" width="100%"/>
 				</div>
-				
 			</div>
 		</div>
-		
-		<div id="about" class="container-fluid">
-		  <h1>About</h1>
-		  
+		<!-- Home End-->
+
+		<!-- About-->
+		<div id="about" class="container-fluid about">
+			<!-- About Description -->
+			<h4>About Me</h4>
+			<div class=" container-fluid about_dis">
+				<p>
+					This is, <strong>Md. Mizanur Rahman</strong>, nick name <strong>Mizan</strong>, I am Java Programmer. 
+					My home district is <strong>Pabna Sadar, Pabna</strong> and now I am at <strong>Dhaka, Bangladesh</strong>. 
+					I have completed my post graduation in <strong>Physics</strong> from <strong>Dhaka College</strong> and accrue a <strong>OCJP</strong> vendor certification from <strong>Oracle Corporation</strong>. 
+					I am obesely heard working and self-motive person. 
+					By watching movies, traveling and visiting new places I spend my leisure time.
+				</p>
+				<p>
+					I know the programming language <strong>Java</strong>, <strong>JavaScript</strong>, <Strong>C</Strong>, <strong>C#</strong> and <strong>PHP</strong>; 
+					Java technology and framework <strong>Spring</strong>, <strong>PrimeFace</strong>, <strong>Struts</strong>, <strong>Swing</strong>, <strong>AWT</strong>, <strong>Servlet</strong>, <strong>JSP</strong>, <strong>JSTL</strong> and <strong>JSF</strong>; 
+					Font-end technology and framework <strong>HTML5</strong>, <strong>CSS3</strong>, <strong>jQuery</strong>, <strong>XML</strong>, <strong>Json</strong>, <strong>Ajax</strong>, <strong>AngularJs</strong>, <strong>ExtJs</strong> and <strong>Bootstrap</strong>; 
+					Data access Technologies <strong>JDBC</strong>, <strong>Hibernate</strong>, <strong>MyBatis</strong> and <strong>JPA2</strong>; 
+					Database <strong>Oracle</strong>(SQL, PL/SQL) and <strong>MySql</strong>; 
+					Server <strong>Apache Tomcat</strong>, <strong>Glassfish</strong> and <strong>XAMPP</strong>; 
+					IDE <strong>STS</strong>, <strong>Eclipse</strong>, <strong>NetBeans</strong> and <strong>Visual Studio Code</strong>.
+				</p>
+				<p>
+					I love to work on <strong>OOP</strong>. Now I am working on <strong>JavaEE</strong>, <strong>Spring Boot</strong>, <strong>JPA</strong>, <strong>MyBatis</strong>, <strong>Oracle</strong>,  <strong>AngularJs</strong>, <strong>ExtJs</strong>, <strong>HL7</strong> and <strong>IHE</strong>. 
+					I want to acquire knowledge at <strong>Python</strong>, <strong>NodeJs</strong>, <strong>Liquibase</strong>, <strong>Spring Web Flow</strong> and many other language and framework.
+				</p>
+			</div>
+			<!-- Experience -->
+			<div class="container-fluid experience">
+				<h4 id="total_expe"></h4>
+				<div class="container-fluid experience_dis">
+					<h4>Medical System Company Limited<img src="resources/images/medisys_log.png" height="30px" width="60px"/></h4>
+					<h5>Jr. Programmer</h5>
+					<h6>JavaEE & IHE Team</h6>
+					<h6>March 1, 2017 to preasent</h6>
+					<p id="medisys_expe"></p>
+					<p>Responsibility: Team mate of development team for <strong>Hospital Management Information System</strong>. Developed with 
+						<strong>IHE</strong>, <strong>HL7 v2.3</strong>, <strong>Spring Boot</strong>, <strong>MyBatis</strong>, <strong>Oracle</strong>, <strong>ExtJs</strong>, <strong>Tomcat</strong>, <strong>Maven</strong>, <strong>Ant</strong>, <strong>Git</strong>, <strong>Bitbucket</strong>, <strong>Jira</strong>, <strong>Liqibase</strong> and many more.
+					</p>
+					<p>Website: <a href="http://medisys.com.sa" target="_blank">http://medisys.com.sa</a></p> 
+					<p>Address: Software Technology Park@Janata Tower, 10th Floor, Kawran Bazar, Dhaka-1215 
+						Telephone : +88-488 100 10 
+						Postal address : P O Box 2197 
+						Dhaka-1000 Bangladesh
+					</p>
+				</div>
+			</div>
+			<!-- Certification -->
+			<div class="container-fluid certification">
+				<h4>Certification</h4>
+				<div class="container-fluid certification_dis">
+					<div class="row">
+						<div class="col col-sm-4">
+							<div class="panel">
+								<div class="panel-heading">Oracle Certified Professional Java SE 6 Programmer</div>
+								<div class="panel-body">
+									<p>Type: Vendor Certification</p>
+									<p>Inistitution : Oracle Corporation</p>
+									<p>Address :  Redwood City, California, United States</p>
+									<p>Date: March 23, 2017</p>
+								</div>
+							</div>
+						</div>
+						<div class="col col-sm-4">
+							<div class="panel">
+								<div class="panel-heading">Enterprise System Analisys and Design (ESAD-J2EE)</div>
+								<div class="panel-body">
+									<p>Type: Profetional Diploma</p>
+									<p>Inistitution: IDB-BISEW</p>
+									<p>Address: IDB Bhaban, Dhaka, Bangladesh</p>
+									<p>Date: December 28, 2015 to December 13, 2017</p>
+								</div>
+							</div>
+						</div>
+						<div class="col col-sm-4">
+							<div class="panel">
+								<div class="panel-heading">National Skill Standard Basic Course Examination</div>
+								<div class="panel-body">
+									<p>Type: Computer Office Application</p>
+									<p>Inistitution: Path Finder Computer Traning Institute</p>
+									<p>Address: Pabna, Dhaka, Bangladesh</p>
+									<p>Date: January 01, 2014 to July 24, 2017</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Academic -->
+			<div class="container-fluid academic">
+				<h4>Academic</h4>
+				<div class="container-fluid academic_dis">
+					<div class="row">
+						<div class="col col-sm-5">
+							<div class="panel">
+								<div class="panel-heading">Master of Science</div>
+								<div class="panel-body">
+									<p>Subject: Physics</p>
+									<p>Session: 2011-2012</p>
+									<p>Registration: 11327084029</p>
+									<p>Roll No: 11327084029</p>
+									<p>Inistitute: Dhaka College, Dhaka</p>
+									<p>University: National University</p>
+									<p>Address: Dhaka, Bangladesh</p>
+									<p>Passing Year: 2012</p>
+									<p>Result Publishing Date: February 01, 2016</p>
+								</div>
+							</div>
+						</div>
+						<div class="col col-sm-2"></div>
+						<div class="col col-sm-5">
+							<div class="panel">
+								<div class="panel-heading">Bachelor of Science</div>
+								<div class="panel-body">
+									<p>Subject: Physics</p>
+									<p>Session: 2007-2008</p>
+									<p>Registration: 1226264</p>
+									<p>Roll No: 9197168</p>
+									<p>Inistitute: Govt. Edward College, Pabna</p>
+									<p>University: National University</p>
+									<p>Address: Pabna, Dhaka, Bangladesh</p>
+									<p>Passing Year: 20011</p>
+									<p>Result Publishing Date: June 22, 2014</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col col-sm-5">
+							<div class="panel">
+								<div class="panel-heading">Higher Secondary Certificate Examination</div>
+								<div class="panel-body">
+									<p>Group: Science</p>
+									<p>Session: 2005-2006</p>
+									<p>Registration: 858621</p>
+									<p>Roll No: 106893</p>
+									<p>Inistitute: Shahid Bul Bul Govt. College, Pabna</p>
+									<p>Board: Rajshahi Education Board</p>
+									<p>Address: Pabna, Dhaka, Bangladesh</p>
+									<p>Passing Year: 2007</p>
+									<p>Result Publishing Date: August 26, 2007</p>
+								</div>
+							</div>
+						</div>
+						<div class="col col-sm-2"></div>
+						<div class="col col-sm-5">
+								<div class="panel">
+									<div class="panel-heading">Secondary School Certificate Examination</div>
+									<div class="panel-body">
+										<p>Group: Science</p>
+										<p>Session: 2003-2004</p>
+										<p>Registration: 836937</p>
+										<p>Roll No: 113932</p>
+										<p>Inistitute: Khatib Abdul Zahid High School</p>
+										<p>Board: Rajshahi Education Board</p>
+										<p>Address: Pabna, Dhaka, Bangladesh</p>
+										<p>Passing Year: 2005</p>
+										<p>Result Publishing Date: July 09, 2005</p>
+									</div>
+								</div>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
-		<div id="protfolio" class="container-fluid">
+		<!-- About End -->
+
+		<!--<div id="protfolio" class="container-fluid">
 		  <h1>Protfolio</h1>
 		  
 		</div>
 		<div id="service" class="container-fluid">
 		  <h1>Service</h1>
 		  
-		</div>
+		</div> -->
 
 		
 		<div id="contact" class="container-fluid contact_well">
@@ -94,8 +257,8 @@
 		</div>
 		
 	
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" type="text/js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" type="text/js"></script>
-	<script src="resources/script.js" type="text/js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" type="text/javascript"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" type="text/javascript"></script>
+	<script src="resources/script.js" type="text/javascript"></script>
 	</body>
 </html>
