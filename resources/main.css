@@ -20,9 +20,21 @@ body{
 	background-color: transparent;
 }
 
+/***** Topics Heading *****/
+.topic_heading{
+	background-color: #222222;
+    margin: 0px 0px 0px 0px;
+    padding: 10px 0px 0px 0px;
+    height: 40px;
+    text-align: center;
+	color: #DADADA;
+	font-size: 15px;
+}
+
 /***** Navbar *****/
 .navbar-modify{
 	height: 80px;
+	width: 100%;
 }
 .header_imag{
 	width: 80px;
@@ -81,19 +93,35 @@ body{
 	width: 100%;
 	padding: 0px 0px 0px 0px;
 	margin: 0px 0px 0px 0px;
-	
+	/***** Background Image *****/
+	background-image: url("images/profetional_07.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	/***** Background Image *****/
 }
+
 /***** About Discription*****/
 .about_dis{
 	width: 100%;
-	padding: 25px 50px 25px 50px;
+	padding: 0px 0px 0px 0px;
+	background-color: #D9DEE2;
 }
-.about_dis P{
+.about_dis_img{
+	height: 200px;
+	width: 15%;
+	float: left;
+}
+.about_dis_p{
+	float: left;
 	color: #222222;
 	font-size: 13px;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	font-style: normal;
 	text-align: justify;
+	height: 200px;
+	width: 85%;
+	margin: 0px 0px 0px 0px;
+    padding: 15px 15px 0px 15px;
 	
 }
 /***** Experience*****/
@@ -101,6 +129,7 @@ body{
 	width: 100%;
 	padding: 0px 0px 0px 0px;
 	margin: 0px 0px 0px 0px;
+	background-color: #D9DEE2;
 }
 .experience_dis{
 	width: 100%;
@@ -135,12 +164,7 @@ body{
 	width: 100%;
 	padding: 0px 0px 0px 0px;
 	margin: 0px 0px 0px 0px;
-	/***** Background Image *****/
-	background-image: url("images/profetional_04.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-	/***** Background Image *****/
+	
 }
 .academic_dis{
 	width: 100%;
