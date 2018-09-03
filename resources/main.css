@@ -260,11 +260,25 @@ body{
 /************** Media Query ********************/
 
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 436px) {
 	
 	.contact_well{
-		height: 310px;
+		height: 330px;
 	}
+	.navbar-right{
+		background-color: #222222;
+	}
+	.img_medisys{
+		height: 100px;
+		width: 100px;
+		margin: 455px 0px 0px 30px;
+		padding: 0px 0px 0px 0px;
+	}
+	.img_ocjp{
+		margin: 94px -15px 0px 0px;
+		padding: 0px 0px 0px 0px;
+	}
+	
 } 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
