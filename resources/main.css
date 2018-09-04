@@ -65,28 +65,30 @@ body{
 #home{
 	padding: 0px 0px 0px 0px; 
 	margin: 0px 0px 0px 0px;
-	/***** Background Image *****/
-	background-image: url("images/home_background.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-	/***** Background Image *****/
-	height: 750px;
+	height: 800px;
 	width: 100%;
 	float: left;
 }
+.home_background{
+	height: 100%;
+	width: 100%;
+}
 .img_medisys{
 	padding: 0px 0px 0px 0px;
-    margin: 238px 0px 0px -14px;
+    margin: -463px 0px 0px -14px;
     height: 370px;
-    width: 540px;
+	width: 540px;
+	position: absolute;
+	left:122px;
 }
 .img_ocjp{
 	padding: 0px 0px 0px 0px;
-    margin: 42px -15px 0px 0px;
+    margin: -669px 0px 0px 0px;
     height: 100px;
     width: 170px;
-    float: right;
+    position: absolute;
+    /* float: right; */
+    right: 0px;
 }
 
 /***** About *****/
@@ -241,12 +243,7 @@ body{
 
 /************** Media Query ********************/
 
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 436px) {
-	
-	
-	
-} 
+
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 410px) {
@@ -261,6 +258,10 @@ body{
 		position: absolute;
 		left: 122px;
 	}
+	.navbar-right{
+		background-color: #222222;
+	}
+
 	.about{
 		float: left;
 	}
@@ -269,20 +270,22 @@ body{
 	}
 
 	.home{
-		height: 400px;
-	}
-	.navbar-right{
-		background-color: #222222;
+		height: 300px !important;
 	}
 	.img_medisys{
-		height: 100px;
-		width: 100px;
-		margin: 455px 0px 0px 30px;
+		height: 95px;
+		width: 169px;
+		margin: -212px 0px 0px 0px;
 		padding: 0px 0px 0px 0px;
+		left: 0px;
+	}
+	.img_medisys .img-circle{
+		border-radius: 0px;
 	}
 	.img_ocjp{
-		margin: 94px -15px 0px 0px;
+		margin: -101px 0px 0px 0px;
 		padding: 0px 0px 0px 0px;
+		left: 0px;
 	}
 	.about_dis_img{
 		height: 300px;
