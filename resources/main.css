@@ -73,6 +73,7 @@ body{
 	/***** Background Image *****/
 	height: 750px;
 	width: 100%;
+	float: left;
 }
 .img_medisys{
 	padding: 0px 0px 0px 0px;
@@ -98,6 +99,7 @@ body{
 	background-repeat: no-repeat;
 	background-size: cover;
 	/***** Background Image *****/
+	float: left;
 }
 
 /***** About Discription *****/
@@ -105,6 +107,7 @@ body{
 	width: 100%;
 	padding: 0px 0px 0px 0px;
 	background-color: #776040;
+	float: left;
 }
 .about_dis_img{
 	height: 200px;
@@ -118,7 +121,6 @@ body{
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	font-style: normal;
 	text-align: justify;
-	height: 200px;
 	width: 85%;
 	margin: 0px 0px 0px 0px;
     padding: 15px 15px 0px 15px;
@@ -131,6 +133,12 @@ body{
 	padding: 0px 0px 0px 0px;
 	margin: 0px 0px 0px 0px;
 	background-color: #776040;
+	float: left;
+}
+.experience .well{
+	padding: 0px 0px 0px 0px;
+	margin: 10px 0px 10px 0px;
+	background-color: #878986;
 }
 .experience_dis{
 	width: 100%;
@@ -147,6 +155,7 @@ body{
 	width: 100%;
 	padding: 0px 0px 0px 0px;
 	margin: 0px 0px 0px 0px;
+	float: left;
 }
 .certification_dis{
 	width: 100%;
@@ -163,6 +172,7 @@ body{
 	width: 100%;
 	padding: 0px 0px 0px 0px;
 	margin: 0px 0px 0px 0px;
+	float: left;
 	
 }
 .academic_dis{
@@ -179,6 +189,7 @@ body{
 	padding: 0px 0px 0px 0px;
 	margin: 0px 0px 0px 0px;
 	background-color: #776040;
+	float: left;
 }
 .protfolio_dis{
 	width: 100%;
@@ -214,47 +225,18 @@ body{
     padding: 0px 0px 0px 30px;
 }
 
-/***** Service *****/
-.service{
-	width: 100%;
-	padding: 0px 0px 0px 0px;
-	margin: 0px 0px 0px 0px;
-	background-color: #776040;
-}
-.service_row{
-	width: 100%;
-	padding: 0px 0px 0px 0px;
-	margin: 50px 0px 50px 0px;
-}
-.service_row h4{
-	font-size: 25px;
-}
-.service_col{
-	background-color: #222222;
-    border-radius: 100px;
-    border: 2px solid #73AD21;
-    padding: 77px 0px 0px 0px;
-	width: 293px;
-	float: left;
-    height: 266px;
-    margin: 0px 50px 0px 50px;
-    color: white;
-}
-.service_col:hover{
-	border: 15px double #776040;
-}
-
 /***** Contact *****/
 .contact_well{
 	background-color: #222222;
-	height: 75px;
+	width: 100%;
+	float: left;
 }
 .contact_well p{
 	float: left;
-	padding: 30px 0px 0px 0px; 
-	margin: 0px 35px 0px 27px; 
-	color: #DADADA;
-	font: normal normal normal 14px/1 FontAwesome;
+    padding: 0px 0px 0px 0px;
+    margin: 20px 35px 20px 28px;
+    color: #DADADA;
+    font: normal normal normal 14px/1 FontAwesome;
 }
 
 /************** Media Query ********************/
@@ -262,8 +244,32 @@ body{
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 436px) {
 	
-	.contact_well{
-		height: 330px;
+	
+	
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 410px) {
+	.name{
+		margin: -43px 0px 0px 88px;
+		font-size: 15px;
+	}
+	.degination{
+		margin: 0px 0px 0px -18px;
+		padding: 38px 0px 0px 0px;
+		font: normal normal normal 14px/1 FontAwesome;
+		position: absolute;
+		left: 122px;
+	}
+	.about{
+		float: left;
+	}
+	.experience{
+		float: left;
+	}
+
+	.home{
+		height: 400px;
 	}
 	.navbar-right{
 		background-color: #222222;
@@ -278,38 +284,44 @@ body{
 		margin: 94px -15px 0px 0px;
 		padding: 0px 0px 0px 0px;
 	}
-	
-} 
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-	.contact_well{
-		height: 190px;
+	.about_dis_img{
+		height: 300px;
+		width: 100%;
+		float: left;
+	}
+	.about_dis_p{
+		float: left;
+		color: #222222;
+		font-size: 13px;
+		font-family: Verdana, Geneva, Tahoma, sans-serif;
+		font-style: normal;
+		text-align: justify;
+		width: 100%;
+		margin: 0px 0px 0px 0px;
+		padding: 15px 15px 0px 15px;
+		
 	}
 } 
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-	.contact_well{
-		height: 160px;
-	}
+	
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+	
 } 
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-	.contact_well{
-		height: 100px;
-	}
+	
 } 
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-	.contact_well{
-		height: 100px;
-	}
+	
 }
 @media only screen and (min-width: 1575px) {
-	.contact_well{
-		height: 75px;
-	}
+	
 }
