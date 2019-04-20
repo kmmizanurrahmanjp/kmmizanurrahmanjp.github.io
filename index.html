@@ -7,11 +7,18 @@
 		<meta name="author" content="Mizan"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 		<link rel="icon" type="image/png" sizes="16x16" href="resources/favicon/favicon-16x16.png">
-		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" type="text/css">
-		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-		<link href="resources/main.css" rel="stylesheet" type="text/css">
+		<link href="resources/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+		<link href="resources/css/bootstrap-theme.css" rel="stylesheet" type="text/css">
+		<link href="resources/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+		<link href="resources/css/style.css" rel="stylesheet" type="text/css">
+		<script src="resources/js/angular.min.js" type="text/javascript"></script>
+		<script src="resources/js/angular-route.min.js" type="text/javascript"></script>
+		<script src="resources/js/jquery.min.js" type="text/javascript"></script>
+		<script src="resources/js/bootstrap.min.js" type="text/javascript"></script>
+		<script src="resources/js/script.js" type="text/javascript"></script>
 	</head>
-	<body  onload="onPageLoding()" id="mizan" data-spy="scroll" data-target=".navbar" data-offset="60">
+	<body ng-app = "mainApp">
+	
 		<!-- Navbar  -->
 		<div class="container-fluid">
 			<nav class="navbar navbar-inverse navbar-fixed-top navbar-modify">
@@ -22,20 +29,12 @@
 					  <span class="icon-bar"></span>
 					  <span class="icon-bar"></span>                        
 				  </button>
-				  <a class="navbar-brand" href="#"><img src="resources/images/mizan_logo.jpg" class="img-circle header_imag"/></a>
 				  <a class="navbar-brand name" href="#">MD. MIZANUR RAHMAN</a>
-				  <a class="navbar-brand degination" href="#">Java Programmer</a>
+				  <a class="navbar-brand degination" href="#">Programmer</a>
 				</div>
 				<div>
 				  <div class="collapse navbar-collapse" id="myNavbar">
 					<ul class="nav navbar-nav navbar-right">
-					  <li class="menu"><a href="#home" ><i class="fa fa-home" style="font-size:24px"></i></a></li>
-					  <li class="menu"><a href="#about" ><i class="fa fa-info" style="font-size:24px"></i></a></li>
-					  <li class="menu"><a href="#cirtification" ><i class="fa fa-certificate" style="font-size:24px"></i></a></li>
-					  <li class="menu"><a href="#academic" ><i class="fa fa-graduation-cap" style="font-size:24px"></i></a></li>
-					  <li class="menu"><a href="#protfolio" ><i class="fa fa-suitcase" style="font-size:24px"></i></a></li>
-					  <li class="menu"><a href="#contact" ><i class="fa fa-address-card" style="font-size:24px"></i></a></li>
-					  
 					  <li class="icon"><a href="https://www.facebook.com/kmmizanurrahmanjp" target="_blank"><i class="fa fa-facebook-square" style="font-size:24px"></i></a></li>
 					  <li class="icon"><a href="https://bd.linkedin.com/in/kmmizanurrahmanjp" target="_blank"><i class="fa fa-linkedin-square" style="font-size:24px"></i></a></li>
 					  <li class="icon"><a href="https://twitter.com/mizan_pabna" target="_blank"><i class="fa fa-twitter-square" style="font-size:24px"></i></a></li>
@@ -50,439 +49,30 @@
 			  </div>
 			</nav>    
 		</div>
-
-		<!-- Home-->
-		<div id="home" class="container-fluid home">
-			<div class="home_background">
-				<img src="resources/images/home_background.jpg" height="100%" width="100%"/>
+	
+        <div class = "container-fluid content-container">
+			<div class = "container-fluid content-left">
+				<img src="resources/images/baner01.jpg" alt="Mizan_01"/>
 			</div>
-		  
-				
-				<div class="img_ocjp">
-						<img src="resources/images/ocjp_home.gif" height="100%" width="100%"/>
+			<div class = "container-fluid content-right">
+				<!-- Menu  -->
+				<div class = "container-fluid content-menu">
+					<ul>
+						<li class="menu"><a href="#home" ><i class="fa fa-home" style="font-size:24px"></i></a></li>
+					    <li class="menu"><a href="#experience" ><i class="fa fa-info-circle" style="font-size:24px"></i></a></li>
+					    <li class="menu"><a href="#cirtification" ><i class="fa fa-certificate" style="font-size:24px"></i></a></li>
+					    <li class="menu"><a href="#academic" ><i class="fa fa-graduation-cap" style="font-size:24px"></i></a></li>
+					    <li class="menu"><a href="#protfolio" ><i class="fa fa-tasks" style="font-size:24px"></i></a></li>
+					    <li class="menu"><a href="#cv" ><i class="fa fa-file-pdf-o" style="font-size:24px"></i></a></li>
+						<li class="menu"><a href="#galary" ><i class="fa fa-image" style="font-size:24px"></i></a></li>
+					</ul>
 				</div>
-			
-		</div>
-
-		<!-- About-->
-		<div id="about" class="container-fluid about">
-			<!-- About Description -->
-			<h4 class="topic_heading">About Me</h4>
-			<div class="container-fluid about_dis">
-				<div class="about_dis_img"><img src="resources/images/about_me.jpg" height="100%" width="100%"/></div>
-				<div class="about_dis_p">
-					<p>
-						This is, <strong>Md. Mizanur Rahman</strong>, nick name <strong>Mizan</strong>, I am Java Programmer. 
-						My home district is <strong>Pabna Sadar, Pabna</strong> and now I am at <strong>Dhaka, Bangladesh</strong>. 
-						I have completed my post graduation in <strong>Physics</strong> from <strong>Dhaka College</strong> and accrue a <strong>OCJP</strong> vendor certification from <strong>Oracle Corporation</strong>. 
-						I am obesely heard working and self-motive person. 
-						By watching movies, traveling and visiting new places I spend my leisure time.
-					</p>
-					<p>
-						I know the programming language <strong>Java</strong>, <strong>JavaScript</strong>, <Strong>C</Strong>, <strong>C#</strong> and <strong>PHP</strong>; 
-						Java technology and framework <strong>Spring</strong>, <strong>PrimeFace</strong>, <strong>Struts</strong>, <strong>Swing</strong>, <strong>AWT</strong>, <strong>Servlet</strong>, <strong>JSP</strong>, <strong>JSTL</strong> and <strong>JSF</strong>; 
-						Font-end technology and framework <strong>HTML5</strong>, <strong>CSS3</strong>, <strong>jQuery</strong>, <strong>XML</strong>, <strong>Json</strong>, <strong>Ajax</strong>, <strong>AngularJs</strong>, <strong>ExtJs</strong> and <strong>Bootstrap</strong>; 
-						Data access Technologies <strong>JDBC</strong>, <strong>Hibernate</strong>, <strong>MyBatis</strong> and <strong>JPA2</strong>; 
-						Database <strong>Oracle</strong>(SQL, PL/SQL) and <strong>MySql</strong>; 
-						Server <strong>Apache Tomcat</strong>, <strong>Glassfish</strong> and <strong>XAMPP</strong>; 
-						IDE <strong>STS</strong>, <strong>Eclipse</strong>, <strong>NetBeans</strong> and <strong>Visual Studio Code</strong>.
-					</p>
-					<p>
-						I love to work on <strong>OOP</strong>. Now I am working on <strong>JavaEE</strong>, <strong>Spring Boot</strong>, <strong>JPA</strong>, <strong>MyBatis</strong>, <strong>Oracle</strong>,  <strong>AngularJs</strong>, <strong>ExtJs</strong>, <strong>HL7</strong> and <strong>IHE</strong>. 
-						I want to acquire knowledge at <strong>Python</strong>, <strong>NodeJs</strong>, <strong>Liquibase</strong>, <strong>Spring Web Flow</strong> and many other language and framework in future.
-					</p>
-				</div>
+				<div class = "container-fluid content" ng-view></div>
 			</div>
-			<!-- Experience -->
-			<div class="container-fluid experience">
-				<h4 id="total_expe" class="topic_heading"></h4>
-				<div class="well well-lg">
-					<div class="container-fluid experience_dis">
-						<h4>Medical System Company Limited<img src="resources/images/medisys_logo.png" height="30px" width="60px"/></h4>
-						<h5>Assistant Programmer</h5>
-						<h6>JavaEE & IHE Team</h6>
-						<h6>March 1, 2017 to preasent</h6>
-						<p id="medisys_expe"></p>
-						<p>Responsibility: Team mate of development team for <strong>Hospital Management Information System</strong>. Developed with 
-							<strong>IHE</strong>, <strong>HL7 v2.3</strong>, <strong>Spring Boot</strong>, <strong>MyBatis</strong>, <strong>Oracle</strong>, <strong>ExtJs</strong>, <strong>Tomcat</strong>, <strong>Maven</strong>, <strong>Ant</strong>, <strong>Git</strong>, <strong>Bitbucket</strong>, <strong>Jira</strong>, <strong>Liqibase</strong> and many more.
-						</p>
-						<p>Website: <a href="http://medisys.com.sa" target="_blank">http://medisys.com.sa</a></p> 
-						<p>Address: Software Technology Park@Janata Tower, 10th Floor, Kawran Bazar, Dhaka-1215, Telephone : +88-488 100 10, Postal address : P O Box 2197, Dhaka-1000 Bangladesh.</p>
-					</div>
-				</div>
-			</div>
-			<!-- Certification -->
-			<div  id="cirtification" class="container-fluid certification">
-				<h4 class="topic_heading">Certification</h4>
-				<div class="container-fluid certification_dis">
-					<div class="row">
-						<div class="col col-xs-12 col-sm-12 col-md-4 col-lg-4">
-							<div class="panel">
-								<div class="panel-heading">Oracle Certified Professional Java SE 6 Programmer</div>
-								<div class="panel-body">
-									<p>Type: Vendor Certification</p>
-									<p>Inistitution : Oracle Corporation</p>
-									<p>Address :  Redwood City, California, United States</p>
-									<p>Date: March 23, 2017</p>
-								</div>
-							</div>
-						</div>
-						<div class="col col-xs-12 col-sm-12 col-md-4 col-lg-4">
-							<div class="panel">
-								<div class="panel-heading">Enterprise System Analisys and Design (ESAD-J2EE)</div>
-								<div class="panel-body">
-									<p>Type: Profetional Diploma</p>
-									<p>Inistitution: IDB-BISEW</p>
-									<p>Address: IDB Bhaban, Dhaka, Bangladesh</p>
-									<p>Date: December 28, 2015 to December 13, 2017</p>
-								</div>
-							</div>
-						</div>
-						<div class="col col-xs-12 col-sm-12 col-md-4 col-lg-4">
-							<div class="panel">
-								<div class="panel-heading">National Skill Standard Basic Course Examination</div>
-								<div class="panel-body">
-									<p>Type: Computer Office Application</p>
-									<p>Inistitution: Path Finder Computer Traning Institute</p>
-									<p>Address: Pabna, Dhaka, Bangladesh</p>
-									<p>Date: January 01, 2014 to July 24, 2014</p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!-- Academic -->
-			<div id="academic" class="container-fluid academic">
-				<h4 class="topic_heading">Academic</h4>
-				<div class="container-fluid academic_dis">
-					<div class="row">
-						<div class="col col-xs-12 col-sm-6 col-md-6 col-lg-3">
-							<div class="panel">
-								<div class="panel-heading">Master of Science</div>
-								<div class="panel-body">
-									<p>Subject: Physics</p>
-									<p>Session: 2011-2012</p>
-									<p>Inistitute: Dhaka College</p>
-									<p>University: National University</p>
-									<p>Address: Dhaka, Bangladesh</p>
-									<p>Passing Year: 2012</p>
-									<p>Result Publishing Date: February 01, 2016</p>
-								</div>
-							</div>
-						</div>
-						<div class="col col-xs-12 col-sm-6 col-md-6 col-lg-3">
-							<div class="panel">
-								<div class="panel-heading">Bachelor of Science</div>
-								<div class="panel-body">
-									<p>Subject: Physics</p>
-									<p>Session: 2007-2008</p>
-									<p>Inistitute: Govt. Edward College</p>
-									<p>University: National University</p>
-									<p>Address: Pabna, Dhaka, Bangladesh</p>
-									<p>Passing Year: 20011</p>
-									<p>Result Publishing Date: June 22, 2014</p>
-								</div>
-							</div>
-						</div>
-						<div class="col col-xs-12 col-sm-6 col-md-6 col-lg-3">
-							<div class="panel">
-								<div class="panel-heading">Higher Secondary Certificate Examination</div>
-								<div class="panel-body">
-									<p>Group: Science</p>
-									<p>Session: 2005-2006</p>
-									<p>Inistitute: Shahid Bul Bul Govt. College</p>
-									<p>Board: Rajshahi Education Board</p>
-									<p>Address: Pabna, Dhaka, Bangladesh</p>
-									<p>Passing Year: 2007</p>
-									<p>Result Publishing Date: August 26, 2007</p>
-								</div>
-							</div>
-						</div>
-						<div class="col col-xs-12 col-sm-6 col-md-6 col-lg-3">
-							<div class="panel">
-								<div class="panel-heading">Secondary School Certificate Examination</div>
-								<div class="panel-body">
-									<p>Group: Science</p>
-									<p>Session: 2003-2004</p>
-									<p>Inistitute: Khatib Abdul Zahid High School</p>
-									<p>Board: Rajshahi Education Board</p>
-									<p>Address: Pabna, Dhaka, Bangladesh</p>
-									<p>Passing Year: 2005</p>
-									<p>Result Publishing Date: July 09, 2005</p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<!-- Protfolio -->
-		<div id="protfolio" class="container-fluid protfolio">
-			<h4 class="topic_heading">Involvement</h4>
-			<div class="container-fluid protfolio_dis">
-				<!-- P8-->
-				<div class="well well-lg">
-					<div class="row">
-						<div class="col col-sm-5">
-							<p class="protfolio_dis_application">SPACE</p>
-							<p class="protfolio_dis_profile">ERP</p>
-							<p class="protfolio_dis_app_dis">Enterprise Resource Planning</p>
-						</div>
-						<div class="col col-sm-1 protfolio_icons">
-							<div class="dropdown">
-								<button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">
-									<i class="fa fa-gears" ></i><span class="caret"></span>
-								</button>
-								<ul class="dropdown-menu">
-									<li>AngularJs 4</li>
-									<li>Apache Tomcate</li>
-									<li>Spring Boot</li>
-									<li>JPA & Hibernate</li>
-									<li>Oracle 10g</li>
-								</ul>
-							</div>
-						</div>
-						<div class="col col-sm-2"></div>
-						<div class="col col-sm-1 protfolio_icons"><i class="fa fa-group"></i> 2</div>
-						<div class="col col-sm-2"></div>
-						<div class="col col-sm-1 protfolio_icons"><a href="#" target="_blank">On Going</a></div>
-					</div>
-				</div>
-				<!-- P7-->
-				<div class="well well-lg">
-					<div class="row">
-						<div class="col col-sm-5">
-							<p class="protfolio_dis_application">HMIS</p>
-							<p class="protfolio_dis_profile">ITIS</p>
-							<p class="protfolio_dis_app_dis">Hospital Management Information System</p>
-						</div>
-						<div class="col col-sm-1 protfolio_icons">
-							<div class="dropdown">
-								<button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">
-									<i class="fa fa-gears" ></i><span class="caret"></span>
-								</button>
-								<ul class="dropdown-menu">
-									<li>ExtJs MVVM</li>
-									<li>HTML & CSS</li>
-									<li>JavaScript</li>
-									<li class="divider"></li>
-									<li>Spring MVC</li>
-									<li>Apache Camel</li>
-									<li>Apache Ant</li>
-									<li>Apache Maven</li>
-									<li>MyBatis</li>
-									<li>Oracle 11g</li>
-								</ul>
-							</div>
-						</div>
-						<div class="col col-sm-2"></div>
-						<div class="col col-sm-1 protfolio_icons"><i class="fa fa-group"></i> 4</div>
-						<div class="col col-sm-2"></div>
-						<div class="col col-sm-1 protfolio_icons"><a href="http://bgd.medisys.com.my/itis" target="_blank"><i class="fa fa-location-arrow"></i></a></div>
-					</div>
-				</div>	
-				<!-- P6-->
-				<div class="well well-lg">
-					<div class="row">
-						<div class="col col-sm-5">
-							<p class="protfolio_dis_application">HMIS</p>
-							<p class="protfolio_dis_profile">LABS</p>
-							<p class="protfolio_dis_app_dis">Hospital Management Information System</p>
-						</div>
-						<div class="col col-sm-1 protfolio_icons">
-							<div class="dropdown">
-								<button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">
-									<i class="fa fa-gears" ></i><span class="caret"></span>
-								</button>
-								<ul class="dropdown-menu">
-									<li>ExtJs MVVM</li>
-									<li>HTML & CSS</li>
-									<li>JavaScript</li>
-									<li class="divider"></li>
-									<li>Spring MVC</li>
-									<li>Apache Camel</li>
-									<li>Apache Ant</li>
-									<li>Apache Maven</li>
-									<li>MyBatis</li>
-									<li>Oracle 11g</li>
-								</ul>
-							</div>
-						</div>
-						<div class="col col-sm-2"></div>
-						<div class="col col-sm-1 protfolio_icons"><i class="fa fa-group"></i> 4</div>
-						<div class="col col-sm-2"></div>
-						<div class="col col-sm-1 protfolio_icons"><a href="http://bgd.medisys.com.my/labs" target="_blank"><i class="fa fa-location-arrow"></i></a></div>
-					</div>
-				</div>	
-				<!-- P5-->
-				<div class="well well-lg">
-					<div class="row">
-						<div class="col col-sm-5">
-							<p class="protfolio_dis_application">HMIS</p>
-							<p class="protfolio_dis_profile">PIX</p>
-							<p class="protfolio_dis_app_dis">Hospital Management Information System</p>
-						</div>
-						<div class="col col-sm-1 protfolio_icons">
-							<div class="dropdown">
-								<button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">
-									<i class="fa fa-gears" ></i><span class="caret"></span>
-								</button>
-								<ul class="dropdown-menu">
-									<li>ExtJs MVVM</li>
-									<li>HTML & CSS</li>
-									<li>JavaScript</li>
-									<li class="divider"></li>
-									<li>Spring MVC</li>
-									<li>Apache Camel</li>
-									<li>Apache Ant</li>
-									<li>Apache Maven</li>
-									<li>MyBatis</li>
-									<li>Oracle 11g</li>
-								</ul>
-							</div>
-						</div>
-						<div class="col col-sm-2"></div>
-						<div class="col col-sm-1 protfolio_icons"><i class="fa fa-group"></i> 2</div>
-						<div class="col col-sm-2"></div>
-						<div class="col col-sm-1 protfolio_icons"><a href="http://bgd.medisys.com.my/itis" target="_blank"><i class="fa fa-location-arrow"></i></a></div>
-					</div>
-				</div>	
-				<!-- P4-->
-				<div class="well well-lg">
-					<div class="row">
-						<div class="col col-sm-5">
-							<p class="protfolio_dis_application">HMIS</p>
-							<p class="protfolio_dis_profile">FHIR</p>
-							<p class="protfolio_dis_app_dis">Hospital Management Information System</p>
-						</div>
-						<div class="col col-sm-1 protfolio_icons">
-							<div class="dropdown">
-								<button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">
-									<i class="fa fa-gears" ></i><span class="caret"></span>
-								</button>
-								<ul class="dropdown-menu">
-									<li>ExtJs MVVM</li>
-									<li>HTML & CSS</li>
-									<li>JavaScript</li>
-									<li class="divider"></li>
-									<li>Spring MVC</li>
-									<li>Apache Camel</li>
-									<li>Apache Ant</li>
-									<li>Apache Maven</li>
-									<li>MyBatis</li>
-									<li>Oracle 11g</li>
-								</ul>
-							</div>
-						</div>
-						<div class="col col-sm-2"></div>
-						<div class="col col-sm-1 protfolio_icons"><i class="fa fa-group"></i> 3</div>
-						<div class="col col-sm-2"></div>
-						<div class="col col-sm-1 protfolio_icons"><a href="http://bgd.medisys.com.my/fhir" target="_blank"><i class="fa fa-location-arrow"></i></a></div>
-					</div>
-				</div>	
-				<!-- P3-->
-				<div class="well well-lg">
-						<div class="row">
-							<div class="col col-sm-5">
-								<p class="protfolio_dis_application">Quality Point</p>
-								<p class="protfolio_dis_profile">IMS</p>
-								<p class="protfolio_dis_app_dis">Enterprise Resource Planning</p>
-							</div>
-							<div class="col col-sm-1 protfolio_icons">
-								<div class="dropdown">
-									<button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">
-										<i class="fa fa-gears" ></i><span class="caret"></span>
-									</button>
-									<ul class="dropdown-menu">
-										<li>AngularJs</li>
-										<li>HTML & CSS</li>
-										<li>Bootstrap</li>
-										<li>JavaScript</li>
-										<li>jQuery</li>
-										<li class="divider"></li>
-										<li>Spring Boot</li>
-										<li>Apache Tomcate</li>
-										<li>Apache Maven</li>
-										<li>Jpa</li>
-										<li>Oracle 10g</li>
-									</ul>
-								</div>
-							</div>
-							<div class="col col-sm-2"></div>
-							<div class="col col-sm-1 protfolio_icons"><i class="fa fa-group"></i> 3</div>
-							<div class="col col-sm-2"></div>
-							<div class="col col-sm-1 protfolio_icons"><a href="#" target="_blank"><i class="fa fa-location-arrow"></i></a></div>
-						</div>
-					</div>	
-					<!-- P2-->
-					<div class="well well-lg">
-						<div class="row">
-							<div class="col col-sm-5">
-								<p class="protfolio_dis_application">MRS Hotel</p>
-								<p class="protfolio_dis_profile">BRS</p>
-								<p class="protfolio_dis_app_dis">Hotel Management System</p>
-							</div>
-							<div class="col col-sm-1 protfolio_icons">
-								<div class="dropdown">
-									<button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">
-										<i class="fa fa-gears" ></i><span class="caret"></span>
-									</button>
-									<ul class="dropdown-menu">
-										<li>AngularJs</li>
-										<li>JSP & JSTL</li>
-										<li>Bootstrap</li>
-										<li>JavaScript</li>
-										<li>jQuery</li>
-										<li class="divider"></li>
-										<li>Spring REST Service</li>
-										<li>Apache Tomcate</li>
-										<li>Hibernate</li>
-										<li>MySql</li>
-									</ul>
-								</div>
-							</div>
-							<div class="col col-sm-2"></div>
-							<div class="col col-sm-1 protfolio_icons"><i class="fa fa-group"></i> 1</div>
-							<div class="col col-sm-2"></div>
-							<div class="col col-sm-1 protfolio_icons"><a href="#" target="_blank"><i class="fa fa-location-arrow"></i></a></div>
-						</div>
-					</div>
-					<!-- P1-->
-					<div class="well well-lg">
-						<div class="row">
-							<div class="col col-sm-5">
-								<p class="protfolio_dis_application">MRS Transport</p>
-								<p class="protfolio_dis_profile">TOP</p>
-								<p class="protfolio_dis_app_dis">Transport Management System</p>
-							</div>
-							<div class="col col-sm-1 protfolio_icons">
-								<div class="dropdown">
-									<button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">
-										<i class="fa fa-gears" ></i><span class="caret"></span>
-									</button>
-									<ul class="dropdown-menu">
-										<li>Swing & AWT</li>
-										<li>Java SE</li>
-										<li>JDBC</li>
-										<li>MySql</li>
-									</ul>
-								</div>
-							</div>
-							<div class="col col-sm-2"></div>
-							<div class="col col-sm-1 protfolio_icons"><i class="fa fa-group"></i> 1</div>
-							<div class="col col-sm-2"></div>
-							<div class="col col-sm-1 protfolio_icons"><a href="#" target="_blank"><i class="fa fa-location-arrow"></i></a></div>
-						</div>
-					</div>
-			</div>
-		</div>
-
+        </div>
 		
-
 		<!-- Contact -->
-		<div id="contact" class="container-fluid contact_well">
+		<div class="container-fluid contact_well">
 			<p><i class="fa fa-copyright"></i> mizan.xyz</p>
 			<p><i class="fas fa-globe"></i> https://kmmizanurrahmanjp.github.io</p>
 			<p><i class="fa fa-map-marker"></i> Tejgaon, Dhaka, Bangladesh</p>
@@ -491,8 +81,120 @@
 			<p> <i class="fa fa-skype"></i> kmmizanurrahmanjp@gmail.com</p>
 			<p><i class="fa fa-phone"></i> +88 01725400435</p>
 		</div>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" type="text/javascript"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" type="text/javascript"></script>
-		<script src="resources/script.js" type="text/javascript"></script>
-	</body>
+		
+		
+		<!-- Routing part-->
+		
+		<!-- Home Description -->
+		<script type = "text/ng-template" id = "home">
+			<div class="container-fluid home_dis">
+				<div class="home_dis_p">
+					<p ng-repeat="aboutDescription in aboutDescriptions">{{aboutDescription.descriptionBlock}}</p>
+				</div>
+			</div>
+		 </script>
+	 
+		 <!-- Experience -->
+		 <script type = "text/ng-template" id = "experience">
+			<div class="container-fluid experience">
+				<div class="well well-lg" ng-repeat="experience in experiences">
+					<div class="container-fluid experience_dis">
+						<h4>{{experience.organization}}<img src="{{experience.logo}}" height="30px" width="60px"/></h4>
+						<h5>{{experience.designation}}</h5>
+						<h6>{{experience.team}}</h6>
+						<h6>{{experience.duration}}</h6>
+						<p id="medisys_expe"></p>
+						<p>Responsibility: {{experience.responsibility}}</p>
+						<p>Website: <a href="{{experience.website}}" target="_blank">{{experience.website}}</a></p> 
+						<p>Address: {{experience.address}}</p>
+					</div>
+				</div>
+			</div>
+		 </script>
+	 
+		 <!-- Certification -->
+		 <script type = "text/ng-template" id = "cirtification">
+			<div  id="cirtification" class="container-fluid certification">
+				<div class="container-fluid certification_dis">
+					<div class="row">
+						<div class="col col-xs-12 col-sm-12 col-md-12 col-lg-12" ng-repeat="cirtification in cirtifications">
+							<div class="panel">
+								<div class="panel-heading">{{cirtification.name}} -> {{cirtification.type}}</div>
+								<div class="panel-body">
+									<p>{{cirtification.organization}}</p>
+									<p>{{cirtification.duration}}</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		 </script>
+	 
+		 <!-- Academic -->
+		 <script type = "text/ng-template" id = "academic">
+			<div id="academic" class="container-fluid academic">
+				<div class="container-fluid academic_dis">
+					<div class="row">
+						<div class="col col-xs-12 col-sm-12 col-md-12 col-lg-12" ng-repeat="academic in academics">
+							<div class="panel">
+								<div class="panel-heading">{{academic.description}}</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		 </script>
+	 
+		 <!-- Protfolio -->
+		 <script type = "text/ng-template" id = "protfolio">
+			<div id="protfolio" class="container-fluid protfolio">
+				<div class="container-fluid protfolio_dis">
+					<div class="well well-lg" ng-repeat="protfolio in protfolios">
+						<div class="row">
+							<div class="col col-sm-5">
+								<p class="protfolio_dis_application">{{protfolio.application}}</p>
+								<p class="protfolio_dis_profile">{{protfolio.profile}}</p>
+								<p class="protfolio_dis_app_dis">{{protfolio.description}}</p>
+							</div>
+							<div class="col col-sm-1 protfolio_icons">
+								<div class="dropdown">
+									<button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">
+										<i class="fa fa-gears" ></i><span class="caret"></span>
+									</button>
+									<ul class="dropdown-menu" >
+										<li ng-repeat="technology in protfolio.technologies">{{technology.name}}</li>
+									</ul>
+								</div>
+							</div>
+							<div class="col col-sm-2"></div>
+							<div class="col col-sm-1 protfolio_icons"><i class="fa fa-group"></i> {{protfolio.member}}</div>
+							<div class="col col-sm-2"></div>
+							<div class="col col-sm-1 protfolio_icons"><a href="{{protfolio.url}}" target="_blank"><i class="fa fa-location-arrow"></i></a></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</script>
+	 
+		<!-- CV -->
+		<script type = "text/ng-template" id = "cv">
+			<div class="container-fluid cv">
+				<embed src="resources/file/cv/mizan_cv_7.0.1.pdf" type="application/pdf"/>
+			</div>
+		</script>
+	 
+		<!-- Galary -->
+		<script type = "text/ng-template" id = "galary">
+			<div class="container-fluid galary">
+				<div class="row" >
+					<div class="col-md-3" ng-repeat="galary in galarys">
+					  <div class="thumbnail">
+						  <img src="{{galary.src}}" alt="{{galary.alt}}" style="width:100%">
+					  </div>
+					</div>
+				</div>
+			</div>
+		</script>
+   </body>
 </html>
