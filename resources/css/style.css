@@ -233,8 +233,14 @@ body{
 
 
 @media only screen and (max-width: 410px) {
+	
+	.name{
+		font-size: 23px;
+		margin-top: 0px;
+		font-family: fantasy;
+	}
 	.degination{
-		padding-top: 45px;
+		padding-top: 35px;
 		font: normal normal normal 14px/1 FontAwesome;
 		position: absolute;
 		left: 0px;
@@ -257,7 +263,7 @@ body{
 	}
 	.content-left img{
 		width: 100%;
-		height: 480px;
+		height: 430px;
 		border-top: 8px solid white;
 		border-radius: 100px;
 	}
@@ -279,10 +285,8 @@ body{
 		list-style-type: none;
 	}
 	.content-menu ul li{
-		padding-right: 10px;
 		float: left;
-		padding-left: 10px;
-		margin-left: 12px;
+		margin-left: 22px;
 		margin-top: 10px;
 	}
 	.content{
