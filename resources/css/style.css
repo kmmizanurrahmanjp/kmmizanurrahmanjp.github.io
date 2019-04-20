@@ -235,7 +235,7 @@ body{
 @media only screen and (max-width: 410px) {
 	
 	.name{
-		font-size: 23px;
+		font-size: 20px;
 		margin-top: 0px;
 		font-family: fantasy;
 	}
@@ -286,7 +286,7 @@ body{
 	}
 	.content-menu ul li{
 		float: left;
-		margin-left: 22px;
+		margin-left: 17px;
 		margin-top: 10px;
 	}
 	.content{
