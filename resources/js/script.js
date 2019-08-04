@@ -55,7 +55,7 @@ app.controller('experienceController', function($scope) {
 		{
 			"organization": "Medical System Company Limited", 
 			"logo": "resources/images/medisys_logo.png", 
-			"designation": "Assistant Programmer", 
+			"designation": "Programmer", 
 			"team": "JavaEE & IHE Team", 
 			"duration": "March 1, 2017 to preasent", 
 			"responsibility": "Team mate of development team for Hospital Management Information System developed with IHE, HL7 v2.3, Spring Boot, MyBatis, Oracle, ExtJs, Tomcat, Maven, Ant, Git, Bitbucket, Jira, Liqibase and many more.", 
